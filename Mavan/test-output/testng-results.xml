@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="120772" started-at="2019-12-03T13:56:01Z" finished-at="2019-12-03T13:58:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="120772" started-at="2019-12-03T13:56:01Z" finished-at="2019-12-03T13:58:02Z">
+      <class name="Mavan.Mavan.ToolsQA">
+        <test-method status="FAIL" signature="Sampledemo()[pri:0, instance:Mavan.Mavan.ToolsQA@60c6f5b]" name="Sampledemo" duration-ms="120435" started-at="2019-12-03T19:26:02Z" finished-at="2019-12-03T19:28:02Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: unable to discover open pages
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HW1496', ip: '10.250.53.55', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0147A923+1550627]
+	Ordinal0 [0x013FA731+1025841]
+	Ordinal0 [0x0137C715+509717]
+	Ordinal0 [0x0130FBC4+64452]
+	Ordinal0 [0x0130C594+50580]
+	Ordinal0 [0x0132ACE7+175335]
+	Ordinal0 [0x0132A8ED+174317]
+	Ordinal0 [0x01328CDB+167131]
+	Ordinal0 [0x0131144A+70730]
+	Ordinal0 [0x013124D0+74960]
+	Ordinal0 [0x01312469+74857]
+	Ordinal0 [0x014142F7+1131255]
+	GetHandleVerifier [0x0151711D+523789]
+	GetHandleVerifier [0x01516EB0+523168]
+	GetHandleVerifier [0x0151E207+552695]
+	GetHandleVerifier [0x0151791A+525834]
+	Ordinal0 [0x0140B82C+1095724]
+	Ordinal0 [0x0141636B+1139563]
+	Ordinal0 [0x014164D3+1139923]
+	Ordinal0 [0x01415455+1135701]
+	BaseThreadInitThunk [0x746B343D+18]
+	RtlInitializeExceptionChain [0x76F19802+99]
+	RtlInitializeExceptionChain [0x76F197D5+54]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HW1496', ip: '10.250.53.55', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0147A923+1550627]
+	Ordinal0 [0x013FA731+1025841]
+	Ordinal0 [0x0137C715+509717]
+	Ordinal0 [0x0130FBC4+64452]
+	Ordinal0 [0x0130C594+50580]
+	Ordinal0 [0x0132ACE7+175335]
+	Ordinal0 [0x0132A8ED+174317]
+	Ordinal0 [0x01328CDB+167131]
+	Ordinal0 [0x0131144A+70730]
+	Ordinal0 [0x013124D0+74960]
+	Ordinal0 [0x01312469+74857]
+	Ordinal0 [0x014142F7+1131255]
+	GetHandleVerifier [0x0151711D+523789]
+	GetHandleVerifier [0x01516EB0+523168]
+	GetHandleVerifier [0x0151E207+552695]
+	GetHandleVerifier [0x0151791A+525834]
+	Ordinal0 [0x0140B82C+1095724]
+	Ordinal0 [0x0141636B+1139563]
+	Ordinal0 [0x014164D3+1139923]
+	Ordinal0 [0x01415455+1135701]
+	BaseThreadInitThunk [0x746B343D+18]
+	RtlInitializeExceptionChain [0x76F19802+99]
+	RtlInitializeExceptionChain [0x76F197D5+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Mavan.Mavan.ToolsQA.Sampledemo(ToolsQA.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sampledemo -->
+      </class> <!-- Mavan.Mavan.ToolsQA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
